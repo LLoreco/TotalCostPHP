@@ -1,5 +1,5 @@
 <?php
-    interface DiscountStrategy {
+    interface DiscountBase {
         public function apply(float $amount): float;
     }
 ?>
