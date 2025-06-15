@@ -1,4 +1,7 @@
 <?php
+    namespace App\Discounts;
+    use App\Models\Customer;
+
     class PensionerDiscount implements DiscountBase{
         private $customer;
 

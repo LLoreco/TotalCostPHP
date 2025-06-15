@@ -1,5 +1,5 @@
 <?php
-
+    namespace App\Discounts;
     use DateTime;
 
     class EarlyOrderDiscount implements DiscountBase{
